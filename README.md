@@ -58,7 +58,7 @@ Built by a team of 3 — BS Software Engineering, SSUET (Jan 2026 – Feb 2026)
 
 **Hafsa Ather Khan**
 BS Software Engineering — SSUET, Karachi
-[GitHub](https://github.com/hafsaatherkhan) · [LinkedIn](https://linkedin.com/in/hafsaatherkhan)
+[GitHub](https://github.com/hafsaatherkhan) · [LinkedIn](https://linkedin.com/in/hafsa-ather-khan)
 ```
 
 ---
