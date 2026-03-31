@@ -32,7 +32,7 @@ Built as a semester project for BS Software Engineering at SSUET.
 
 | Layer | Technology |
 |---|---|
-| Frontend | Next.js, TypeScript |
+| Frontend | Next.js, TypeScript, JavaScript |
 | Backend | Spring Boot (Java) |
 | AI | Google Gemini API |
 | Database | MySQL |
@@ -62,7 +62,3 @@ BS Software Engineering — SSUET, Karachi
 ```
 
 ---
-
-**GitHub Description (1 line):**
-```
-AI-powered career platform for resume building, skill gap analysis, and personalized roadmaps. Built with Next.js, Spring Boot, and Gemini API.
