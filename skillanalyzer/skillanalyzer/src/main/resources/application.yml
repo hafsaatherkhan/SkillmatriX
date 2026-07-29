@@ -1,0 +1,71 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SkillmatriX-user-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillmatrix_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: your-password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+
+
+  mail:
+    host: smtp.gmail.com  # or Gmail SMTP
+    port: 587
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+
+
+
+        mail.smtp.auth: true
+        mail.smtp.starttls.enable: true
+        mail.debug: true   # enables detailed logs for troubleshooting
+
+
+    logging:
+      level:
+        root: INFO
+        org.springframework.security: INFO
+        org.springframework.web: INFO
+        # javax.mail / SMTP debug (optional for email troubleshooting)
+        javax.mail: DEBUG
+        com.sun.mail.smtp: DEBUG
+
+
+
+jwt:
+  secret: ${JWT_SECRET}
+  issuer: SkillmatriX
+  access-expiration-ms: 900000       # 15 min
+  refresh-expiration-ms: 604800000   # 7 days
+
+  web:
+    cors:
+      mappings:
+        "/**":
+          allowed-origins:
+            - http://localhost:3000
+            - http://127.0.0.1:3000
+            - http://localhost:5173
+            - http://127.0.0.1:5173
+          allowed-origin-patterns:
+            - https://*.vercel.app
+            - https://*.netlify.app
+          allowed-methods: "GET,POST,PUT,PATCH,DELETE,OPTIONS"
+          allowed-headers: "*"
+          allow-credentials: true
+          max-age: 3600
