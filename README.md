@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://<img width="1276" height="639" alt="image" src="https://github.com/user-attachments/assets/d03e7aec-beb2-4e8b-ace2-b8da0e925777" />
-/900x220/3B091E/E2B8CA?text=SkillmatriX&font=roboto" width="100%"/>
+<img width="1276" height="639" alt="image" src="https://github.com/user-attachments/assets/d03e7aec-beb2-4e8b-ace2-b8da0e925777" />
+
 
 # 🎯 SkillmatriX
 
